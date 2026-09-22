@@ -1,0 +1,6 @@
+{
+  "name": "Surya Energy",
+  "description": "Surya Energy interactive AI-driven hydroelectric power plant simulator featuring dam flow physics, turbine-generator dynamics, substation grid distribution, real-time energy analytics, and maintenance intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

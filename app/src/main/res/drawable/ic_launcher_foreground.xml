@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Dam Structure -->
+    <path
+        android:pathData="M30,40 L38,76 L70,76 L78,40 Z"
+        android:fillColor="#E2F1E7" />
+    <!-- Dam pillars -->
+    <path
+        android:pathData="M44,40 L46,76 M54,40 L54,76 M64,40 L62,76"
+        android:strokeWidth="2"
+        android:strokeColor="#1E3E62" />
+    <!-- Water Crest & Surge -->
+    <path
+        android:pathData="M24,40 C32,35 42,43 54,39 C66,35 76,43 84,39 L84,45 C76,49 66,41 54,45 C42,49 32,41 24,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="38"
+                android:endX="84"
+                android:endY="45"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00D2FF" />
+                <item android:offset="1.0" android:color="#0077B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Powerful Electric Bolt -->
+    <path
+        android:pathData="M56,24 L43,50 L53,50 L48,74 L67,46 L55,46 Z"
+        android:fillColor="#FFD600"
+        android:strokeWidth="1"
+        android:strokeColor="#FFAB00" />
+    <!-- Water Base Outflow -->
+    <path
+        android:pathData="M30,76 C40,72 50,80 60,75 C70,70 74,78 78,76 L78,82 C74,84 70,76 60,81 C50,86 40,78 30,82 Z"
+        android:fillColor="#00B4D8" />
+</vector>
